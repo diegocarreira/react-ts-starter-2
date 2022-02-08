@@ -7,7 +7,7 @@ A crud of customers + login to be a base for new projects (using React + TS + Ma
 
 - React
 - Typescript
-- MUI (for Material Design)[https://mui.com/]
+- MUI [(for Material Design)](https://mui.com/)
 
 - SCSS
 - Context
