@@ -1,0 +1,56 @@
+// #############################################################
+// ###   Style solutions based on sx prop for specific elements 
+// ###   and stylesheet for reusable elements.
+// ###   To know more about it see: 
+// ###   - https://mui.com/system/basics/
+// ###   - https://mui.com/pt/guides/interoperability/
+// #############################################################
+
+@import './variables.scss';
+
+// ## Reset
+body{
+  background: #FCFDFC !important;
+}
+*{
+  text-decoration: none;
+  box-sizing: border-box;
+}
+ul,li{
+  list-style: none;
+}
+
+// ## Generics
+.secondary-button{
+  color: #eee !important;
+  
+  .MuiButton-startIcon{
+    color: $primaryDark;
+  }
+}
+
+
+.bt-new{
+  margin-left: 10px;
+}
+.MuiButton-text{
+  text-transform: capitalize !important;
+}
+
+// ## Form
+.MuiFormControl-fullWidth{
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.MuiFormControl-fullWidth.select-box{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.page-title-container{
+  padding: 10px;
+
+  .MuiTypography-root{
+    vertical-align: middle;
+  }
+}

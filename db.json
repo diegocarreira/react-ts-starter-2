@@ -1,0 +1,52 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Customer example 1",
+      "email": "test1@test.com",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "name": "Customer example 2",
+      "email": "test2@test.com",
+      "status": 0
+    },
+    {
+      "id": 3,
+      "name": "Customer example 3",
+      "email": "test3@test.com",
+      "status": 1
+    },
+    {
+      "id": 4,
+      "name": "Customer example 4",
+      "email": "test4@test.com",
+      "status": 0
+    },
+    {
+      "id": 5,
+      "name": "Customer example 5",
+      "email": "test5@test.com",
+      "status": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@test.com",
+      "password": "111",
+      "token": "12345678",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "name": "Diego",
+      "email": "diego@test.com",
+      "password": "222",
+      "token": "12345678",
+      "status": 1
+    }
+  ]
+}

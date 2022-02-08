@@ -1,0 +1,24 @@
+.side-menu{
+  .MuiListItem-root{
+    display: inline-block;
+    vertical-align: middle;
+    min-height: 56px;
+    
+    .MuiListItemIcon-root{
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: #FFF;
+    }
+    .MuiListItemText-root{
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      color: #FFF;
+    }
+  }
+  .MuiTypography-body1{
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
